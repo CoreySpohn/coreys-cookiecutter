@@ -37,11 +37,11 @@ html_static_path = ["_static"]
 master_doc = "index"
 html_logo = "_static/logo.png"
 html_favicon = "_static/favicon.ico"
-html_title = "Yield Input Package Python Wrapper"
+html_title = "{{cookiecutter.project}}"
 html_sidebars = {"posts/*": ["sbt-sidebar-nav.html"]}
 
 html_theme_options = {
-    "repository_url": "https://www.github.com/{{cookiecutter.username}}/{{cookiecutter.project}",
+    "repository_url": "https://www.github.com/{{cookiecutter.GitHubusername}}/{{cookiecutter.project}}",
     "repository_branch": "main",
     "use_repository_button": True,
     "show_toc_level": 2,

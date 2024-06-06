@@ -1,6 +1,8 @@
 {
   "project": "project",
-  "GitHub Username": "username",
-  "author": "author",
-  "year": "year"
+  "GitHubusername": "CoreySpohn",
+  "author": "Corey Spohn",
+  "year": "2024",
+  "email": "corey.a.spohn@nasa.gov",
+  "description": "A short description of the project"
 }

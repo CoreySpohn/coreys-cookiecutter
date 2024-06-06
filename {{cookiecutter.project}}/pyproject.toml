@@ -3,10 +3,12 @@ requires = ['hatchling', "hatch-fancy-pypi-readme", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
-name = {{cookiecutter.project}}
-authors = [{ name = {{cookiecutter.author}}, email = "TODO" }]
-description = "TODO"
-dependencies = ["TODO"]
+name = "{{cookiecutter.project}}"
+authors = [
+  { name = "{{cookiecutter.author}}", email = "{{cookiecutter.email}}" },
+]
+description = "{{cookiecutter.description}}"
+dependencies = ["#TODO"]
 license = { file = "LICENSE" }
 dynamic = ['readme', 'version']
 requires-python = ">=3.9"
@@ -18,8 +20,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/{{cookiecutter.username}}/{{cookiecutter.project}}"
-Issues = "https://github.com/{{cookiecutter.username}}/{{cookiecutter.project}}/issues"
+Homepage = "https://github.com/{{cookiecutter.GitHubusername}}/{{cookiecutter.project}}"
+Issues = "https://github.com/{{cookiecutter.GitHubusername}}/{{cookiecutter.project}}/issues"
 
 [tool.hatch.version]
 source = "vcs"
